@@ -9,10 +9,6 @@ if true then return {} end
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
-  {
-    "Exafunction/codeium.vim",
-    event = "BufEnter",
-  },
   -- add gruvbox
   { "ellisonleao/gruvbox.nvim" },
 
